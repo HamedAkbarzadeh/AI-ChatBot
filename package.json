@@ -1,0 +1,22 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "This bot is written with nodejs and we are going to include APIs to communicate with chatgpt that will be used inside Telegram bots, applications, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamedAkbarzadeh/AI-ChatBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamedAkbarzadeh/AI-ChatBot/issues"
+  },
+  "homepage": "https://github.com/HamedAkbarzadeh/AI-ChatBot#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
