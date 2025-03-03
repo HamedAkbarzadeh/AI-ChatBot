@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This bot is written with nodejs and we are going to include APIs to communicate with chatgpt that will be used inside Telegram bots, applications, etc.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/HamedAkbarzadeh/AI-ChatBot#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "@google/generative-ai": "^0.22.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "readline-sync": "^1.4.10"
   }
 }
